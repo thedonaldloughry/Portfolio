@@ -1,0 +1,24 @@
+varying vec2 curPos;
+uniform vec4 translate;
+
+attribute vec4 a_normal;
+attribute vec4 a_pos;
+varying vec3 v_normal;
+
+attribute vec4 a_texc;
+varying vec2 v_texcoord;
+varying vec4 v_pw;
+
+uniform mat4 projMatrix;
+uniform mat4 worldMatrix;
+uniform mat4 viewProjMatrix;
+
+void main()
+{
+    vec4 p = a_pos;
+    p = p * worldMatrix * viewProjMatrix;
+    v_pw = a_pos * worldMatrix;
+    v_normal = (a_normal * worldMatrix).xyz;
+    v_texcoord = a_texc.st;
+    gl_Position = p;
+}
