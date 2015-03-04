@@ -1,0 +1,6 @@
+Anything to do with the Graphics... 
+
+shaders
+camera
+mesh files
+etc..

@@ -1,0 +1,15 @@
+Anything in this folder is code that has to do with the actual gameplay
+
+Naming struct..
+
+Anything that has to do with "AI_name..." name it
+EX: I was working with a enemysubmarine AI
+	AI_enemySubmarine.cpp
+
+Wepon system:
+	wp_torpedos.cpp
+
+Player systems:
+	p_controls.cpp
+
+ETC... anything you can think of let me know

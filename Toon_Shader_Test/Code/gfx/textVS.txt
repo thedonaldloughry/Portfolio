@@ -1,0 +1,10 @@
+attribute vec4 a_position;
+varying vec2 v_texcoord;
+
+void main()
+{
+    vec4 p = vec4(a_position.xy,0.0,1.0);
+    v_texcoord.st = a_position.zw;
+    gl_Position = p;
+
+}

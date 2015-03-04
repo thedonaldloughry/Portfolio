@@ -1,0 +1,133 @@
+attribute vec4 a_normal;
+attribute vec4 a_pos;
+varying vec4 v_normal;
+attribute vec4 a_texc;
+
+varying vec2 v_texcoord;
+varying vec4 v_pw;
+varying vec4 illum; // illumination, changes depending on where every light is...
+varying float diffuse; //this will be the value "dp" below//
+
+uniform mat4 projMatrix;
+uniform mat4 worldMatrix;
+uniform mat4 viewProjMatrix;
+uniform float timePassed;
+//uniform vec3 waterDirs[3];
+
+//FS Uniforms//
+uniform sampler2D tex;
+uniform vec4 specular;
+uniform vec4 ambient;
+uniform vec4 eyepos;
+uniform float A0;
+uniform float A1;
+uniform float A2;
+uniform float shiny;
+uniform float speed;
+uniform float freq;
+uniform float steepness;
+uniform float amplitude;
+
+struct Light{
+    vec4 pos;
+    vec4 col;
+    vec4 dir;
+};
+
+struct Direction
+{
+    vec3 dir;
+};
+
+uniform Light lights[4];
+uniform Direction waterDirections[3];
+
+
+vec3 d1 = vec3(-1,0,1);
+vec3 d2 = vec3(1,0,0);
+vec3 d3 = vec3(1,0,1);
+
+//End FS Uniforms//
+
+varying float s;
+varying float v;
+
+varying float v_time;
+varying float sum;
+
+
+float height(vec2 p, vec3 d)//pass p.xz to this function
+{
+    d = normalize(d);
+    s = dot(d.xz,p);
+    s = s * freq;
+    s = s + timePassed * speed * freq;
+    v = 0.5*(sin(s)+steepness);
+    v = pow(v,steepness);
+    v = amplitude * v;
+    return v;
+}
+
+void main()
+{
+    vec4 p = a_pos;
+    vec3 p1 = p.xyz + vec3(1.0,0.0,0.0); // y-value
+    vec3 p2 = p.xyz + vec3(0.0, 0.0, 1.0); // z-value
+
+    //what do we do with the sum????
+
+
+    v_normal.xyz = cross(p2 - p.xyz, p1 - p.xyz);
+    v_normal.w = 0.0;
+    v_normal = v_normal * worldMatrix;
+
+    /*for(int j = 0; j < 3; j++) // ONLY USES ONE OF THE THREE VECTORS, DECIDED TO HARD CODE FOR FUNCTIONALITY
+    {
+        sum += height(p.xz, waterDirections[j].dir);
+    }*/
+
+    //p.y = sum;
+    p.y += height(p.xz, d1);
+    p.y += height(p.xz, d2);
+    p.y += height(p.xz, d3);
+
+    p = p * worldMatrix * viewProjMatrix;
+    v_pw = a_pos * worldMatrix;
+
+    //v_normal = (a_normal * worldMatrix).xyz;
+    v_texcoord = a_texc.st;
+
+    gl_Position = p;
+
+    //Color Calculations//
+    vec3 N = normalize(v_normal.xyz);
+    vec4 tc = texture2D(tex, v_texcoord);
+
+    for(int i = 0; i < 4; i++)
+    {
+
+        vec3 L = lights[i].pos.xyz - lights[i].pos.w * v_pw.xyz;
+        float d = length(L);
+        L = normalize(L);
+
+        vec3 V = (eyepos.xyz - v_pw.xyz);
+        V = normalize(V);
+
+        vec3 R = reflect(-L, N);
+        R = normalize(R);
+        float spec = clamp(dot(V, R), 0.0, 1.0);
+        spec = pow(spec, specular.a);
+
+        float f = 1.0/(A2*d*d + A1*d + A0);
+        f = clamp(f,0.0,1.0);
+
+        float dp = dot(L,N);
+        dp = clamp(dp, 0.0, 1.0);
+        diffuse = dp;
+
+        float cos_a = dot(-L, lights[i].dir.xyz);
+        float spotflag = step(cos_a, lights[i].dir.w);
+
+        illum = f  * lights[i].col * (dp * tc * diffuse)  + (spec  * specular * sign(dp)) + ambient;
+    }
+}

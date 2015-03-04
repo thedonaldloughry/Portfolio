@@ -1,0 +1,56 @@
+uniform mat4 worldMatrix;
+uniform mat4 projMatrix;
+uniform mat4 vMatrix;
+uniform vec4 eyepos;
+
+attribute vec3 a;
+attribute vec3 b;
+attribute vec3 n1;
+attribute vec3 n2;
+attribute float w;
+
+void main()
+{
+    mat4 viewProjMatrix = vMatrix * projMatrix;
+    float a_vertex = dot(eyepos.xyz - a, n1);
+    float b_vertex = dot(eyepos.xyz - a, n2);
+
+    if (a_vertex * b_vertex > 0.0) // signs are different, edge is behind the object
+    {
+        gl_Position = vec4(2.0,2.0,2.0,1.0);
+    }
+
+    else // the outline of the figure
+    {
+        if(w == 0.0)
+        {
+            vec4 p = vec4(a.x, a.y, a.z, 1.0);
+            p = p * worldMatrix * viewProjMatrix;
+            gl_Position = p;
+        }
+
+        else
+        {
+            vec4 p = vec4(b.x, b.y, b.z, 1.0);
+            p = p * worldMatrix * viewProjMatrix;
+            gl_Position = p;
+        }
+    }
+
+    /*if(dot(n1, n2) <= 0.2) // there is a sharp edge
+    {
+        if(w == 0.0)
+        {
+            vec4 p = vec4(a.x, a.y, a.z, 1.0);
+            p = p * worldMatrix * viewProjMatrix;
+            gl_Position = p;
+        }
+
+        else
+        {
+            vec4 p = vec4(b.x, b.y, b.z, 1.0);
+            p = p * worldMatrix * viewProjMatrix;
+            gl_Position = p;
+        }
+    }*/
+}
