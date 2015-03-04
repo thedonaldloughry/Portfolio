@@ -1,0 +1,32 @@
+/*
+* AUTHOR INFORMATION:
+* DONALD LOUGHRY II
+* Copyright (C) 2014  Donald Keith Loughry II   All Rights Reserved.
+* 
+* All software products used within the following program are each subject to their 
+* respective copyrights. Donald Loughry II has no affiliation with Brian Paul, VMware Inc., Doxygen, or the 
+* Kronos group. Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+* and associated documentation files (the "Software"), to deal in the Software without restriction, including
+* without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+* copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the 
+* following conditions:
+* 
+* The above copyright notice and this permission notice shall be included
+* in all copies or substantial portions of the Software.
+* 
+* 
+* 
+* To see the program run, go to the ShaderTest folder, then into the bin folder, 
+* and run the .exe found there. For all you critics out there, this is my 
+* first software presentation, and it is in a very early stage, so go easy on me.
+*
+* CONTROLS:
+*
+* Controls for the ShaderTest program are...
+*
+* A/D --> Rotate the model.
+* W/S --> Roll the model.
+* I --> Zoom out.
+* K --> Zoom in.
+* J/L --> Cycle through different models (work in progress)
+*/
