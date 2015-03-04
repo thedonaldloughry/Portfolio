@@ -1,0 +1,147 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+outer_ptable        0x1000            kernelc.o
+buf                 0x29              kernelc.o
+inner_ptables       0x20000           kernelc.o
+row                 0x4               kernelc.o
+sv                  0x4               kernelc.o
+jiffies             0x4               kernelc.o
+col                 0x4               kernelc.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00400000                __image_base__ = 0x400000
+                0x00000000                __dll__ = 0x0
+                0x00400000                ___ImageBase = 0x400000
+                0x00001000                __section_alignment__ = 0x1000
+                0x00000200                __file_alignment__ = 0x200
+                0x00000004                __major_os_version__ = 0x4
+                0x00000000                __minor_os_version__ = 0x0
+                0x00000001                __major_image_version__ = 0x1
+                0x00000000                __minor_image_version__ = 0x0
+                0x00000004                __major_subsystem_version__ = 0x4
+                0x00000000                __minor_subsystem_version__ = 0x0
+                0x00000003                __subsystem__ = 0x3
+                0x00200000                __size_of_stack_reserve__ = 0x200000
+                0x00001000                __size_of_stack_commit__ = 0x1000
+                0x00100000                __size_of_heap_reserve__ = 0x100000
+                0x00001000                __size_of_heap_commit__ = 0x1000
+                0x00000000                __loader_flags__ = 0x0
+                0x00000000                __dll_characteristics__ = 0x0
+                0x00001000                . = 0x1000
+
+.text           0x00001000    0x28000
+                0x00001000                stext = .
+ *(.text)
+ .text          0x00001000     0x1ffd kernelasm.o
+                0x0000101e                outb
+                0x00001027                inb
+                0x0000102f                interrupt_init
+                0x00001035                activate_paging
+                0x00001076                getDataStart
+                0x0000107c                getBssEnd
+ *fill*         0x00002ffd        0x3 00
+ .text          0x00003000      0x238 kernelc.o
+                0x00003000                main
+                0x00003012                _main
+                0x0000301c                __main
+                0x00003026                illegal_opcode
+                0x0000302d                page_fault
+                0x000030ba                kmain
+ .text          0x00003238      0xc2c kprintf.o
+                0x0000324a                va_end
+                0x000032d1                kprintf
+                0x0000331e                ksprintf
+ .text          0x00003e64      0x498 util.o
+                0x00003e64                console_init
+                0x00003e85                irq_init
+                0x00003f68                console_clear
+                0x00003fa1                console_putc
+                0x0000413f                highLevelHandler
+                0x00004213                halt
+                0x00004219                uptime
+                0x00004223                remap_PIC1
+                0x0000428f                remap_PIC2
+ .text          0x000042fc      0x1a4 paging.o
+                0x000042fc                is_writable
+                0x000043a9                paging_init
+ .text          0x000044a0      0x324 keyboard.o
+                0x000044a0                keyboard_init
+                0x000044a6                keyboard_interrupt
+                0x00004640                keyboard_getline
+                0x0000469e                is_number
+                0x000046c4                katoi
+                0x0000472b                kstrcmp
+                0x00004787                kmemcpy
+ *(.rodata)
+ *(.rdata)
+ .rdata         0x000047c4       0xb0 kernelc.o
+ .rdata         0x00004874      0x1c4 kprintf.o
+ .rdata         0x00004a38       0x28 util.o
+ .rdata         0x00004a60      0x15c keyboard.o
+ *(.rdata$zzz)
+                0x00004bbc                etext = .
+                0x00005000                . = ALIGN (ABSOLUTE (.), 0x1000)
+ *fill*         0x00004bbc      0x444 00
+                0x00005000                _sdata = .
+                0x00005000                sdata = .
+ *(.data)
+ .data          0x00005000      0x806 kernelasm.o
+ *fill*         0x00005806        0x2 00
+ .data          0x00005808        0x0 kernelc.o
+ .data          0x00005808        0x0 kprintf.o
+ .data          0x00005808        0x0 util.o
+ .data          0x00005808        0x0 paging.o
+ *fill*         0x00005808       0x18 00
+ .data          0x00005820      0x300 keyboard.o
+                0x00005b20                _edata = .
+                0x00005b20                edata = .
+                0x00005b20                _sbss = .
+                0x00005b20                sbss = .
+ *(COMMON)
+ *fill*         0x00005b20      0x4e0 00
+ COMMON         0x00006000    0x22010 kernelc.o
+                0x00006000                outer_ptable
+                0x00007000                buf
+                0x00008000                inner_ptables
+                0x00028000                row
+                0x00028004                sv
+                0x00028008                jiffies
+                0x0002800c                col
+ *(.bss)
+ .bss           0x00028010        0x0 kernelasm.o
+ .bss           0x00028010        0x0 kernelc.o
+ .bss           0x00028010        0x0 kprintf.o
+ .bss           0x00028010        0x0 util.o
+ .bss           0x00028010        0x0 paging.o
+ *fill*         0x00028010       0x10 00
+ .bss           0x00028020       0x40 keyboard.o
+                0x00028060                _ebss = .
+                0x00028060                ebss = .
+
+.stack          0x00029000        0x0
+ .stack         0x00029000        0x0 kernelasm.o
+
+.drectve        0x00029000      0x200
+ .drectve       0x00029000       0xa4 kernelc.o
+ .drectve       0x000290a4       0x54 kprintf.o
+ .drectve       0x000290f8       0x54 util.o
+ .drectve       0x0002914c       0x90 paging.o
+
+/DISCARD/
+ *(.eh_frame)
+ *(.comment)
+LOAD kernelasm.o
+LOAD kernelc.o
+LOAD kprintf.o
+LOAD util.o
+LOAD paging.o
+LOAD keyboard.o
+OUTPUT(kernel.tmp pei-i386)

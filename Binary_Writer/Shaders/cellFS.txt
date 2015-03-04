@@ -1,0 +1,39 @@
+//This must use the texture method on slide 13/14
+
+varying vec4 v_pw;
+varying vec3 v_normal;
+varying vec2 v_texcoord;
+varying vec4 standardIllum; // normal illumination, calculated in the Vertex Shader now that per-vertex shading is being implemented //
+varying float diffuse; //calculated in cellVS, I believe this should be the value "dp"//
+
+uniform sampler2D tex;
+uniform sampler2D iramp; //Light intensity ramp... see cellShade1.png in project folder.
+uniform vec4 specular;
+uniform vec4 ambient;
+uniform vec4 eyepos;
+uniform float A0;
+uniform float A1;
+uniform float A2;
+uniform float shiny;
+
+struct Light{
+    vec4 pos;
+    vec4 col;
+    vec4 dir;
+};
+
+uniform Light lights[4];
+
+void main()
+{
+    gl_FragColor = vec4(0,0,0,0);
+
+    vec4 basecol = texture2D(tex, v_texcoord, 1000.0);
+    vec4 illum = texture2D( iramp, vec2(diffuse,0.0));
+    gl_FragColor.rgb = basecol.rgb * illum.r;
+
+    //gl_FragColor.rgb += standardIllum.rgb;
+    gl_FragColor.a = 1.0;
+    //gl_FragColor.rgb += vec3(spec);
+    //gl_FragColor.a += tc.a * diffuse.a; //Alpha Calculations, not sure I need them right now.
+}

@@ -1,0 +1,1930 @@
+# depslib dependency file v1.0
+1393184494 source:c:\users\user\desktop\binarywriter\main.cpp
+	<iostream>
+	"llgl.h"
+	<fstream>
+	<vector>
+	"SuperMesh.h"
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\llgl.h
+	"Error.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"wrappers2.h"
+	"tdl/Bindable.h"
+	"tdl/framebuffers.h"
+	"tdl/loader.h"
+	"tdl/log.h"
+	"misc.h"
+	"tdl/programs.h"
+	"tdl/tdlmath.h"
+	"tdl/textures.h"
+	"SDL.h"
+	<memory>
+	<tr1/memory>
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\error.h
+	<stdexcept>
+	<string>
+	<sstream>
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\llgl-gldef.h
+	<stdlib.h>
+	<windows.h>
+	"llgl-glext.h"
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\llgl-glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\vectormath.h
+	<vector>
+	<cmath>
+	<iostream>
+	<string>
+	<stdexcept>
+	<sstream>
+	"Error.h"
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\matrixmath.h
+	"vectormath.h"
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<string>
+	"Error.h"
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\wrappers2.h
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\bindable.h
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\framebuffers.h
+	<map>
+	"Bindable.h"
+	"textures.h"
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\textures.h
+	<vector>
+	<map>
+	<string>
+	"Bindable.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	<stdexcept>
+	<stdint.h>
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\loader.h
+	<string>
+	<vector>
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\log.h
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\misc.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	"Error.h"
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\programs.h
+	<string>
+	<vector>
+	<map>
+	<set>
+	<stdexcept>
+	"textures.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"log.h"
+	"programsvf.h"
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\programsvf.h
+
+1377023120 c:\users\user\desktop\llgl\llgl\include\tdl\tdlmath.h
+	<cmath>
+	"vectormath.h"
+	"matrixmath.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_config.h
+	"SDL_config_win32_msvc.h"
+	"SDL_config_full.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_config_win32_msvc.h
+	"SDL_platform.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_platform.h
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_config_full.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\begin_code.h
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\close_code.h
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_keysym.h
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\llgl\llgl\thirdparty\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1393183661 c:\users\user\desktop\binarywriter\supermesh.h
+	"llgl.h"
+	"Mesh.h"
+	"assert.h"
+	<string>
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1391117891 c:\users\user\desktop\binarywriter\mesh.h
+	"llgl.h"
+	"assert.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+
+1393183664 source:c:\users\user\desktop\binarywriter\mesh.cpp
+	"Mesh.h"
+	"assert.h"
+	"llgl.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\llgl.h
+	"Error.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"wrappers2.h"
+	"tdl/Bindable.h"
+	"tdl/framebuffers.h"
+	"tdl/loader.h"
+	"tdl/log.h"
+	"misc.h"
+	"tdl/programs.h"
+	"tdl/tdlmath.h"
+	"tdl/textures.h"
+	"SDL.h"
+	<memory>
+	<tr1/memory>
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\error.h
+	<stdexcept>
+	<string>
+	<sstream>
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\llgl-gldef.h
+	<stdlib.h>
+	<windows.h>
+	"llgl-glext.h"
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\llgl-glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\vectormath.h
+	<vector>
+	<cmath>
+	<iostream>
+	<string>
+	<stdexcept>
+	<sstream>
+	"Error.h"
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\matrixmath.h
+	"vectormath.h"
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<string>
+	"Error.h"
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\wrappers2.h
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\bindable.h
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\framebuffers.h
+	<map>
+	"Bindable.h"
+	"textures.h"
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\textures.h
+	<vector>
+	<map>
+	<string>
+	"Bindable.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	<stdexcept>
+	<stdint.h>
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\loader.h
+	<string>
+	<vector>
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\log.h
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\misc.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	"Error.h"
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\programs.h
+	<string>
+	<vector>
+	<map>
+	<set>
+	<stdexcept>
+	"textures.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"log.h"
+	"programsvf.h"
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\programsvf.h
+
+1377023120 c:\users\user\desktop\binarywriter\llgl\llgl\include\tdl\tdlmath.h
+	<cmath>
+	"vectormath.h"
+	"matrixmath.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config.h
+	"SDL_config_win32_msvc.h"
+	"SDL_config_full.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config_win32_msvc.h
+	"SDL_platform.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_platform.h
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config_full.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\begin_code.h
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\close_code.h
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_keysym.h
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023148 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377023150 c:\users\user\desktop\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1393183664 source:c:\users\user\desktop\projectlookingglass\trunk\subgame\code\binarywriter\mesh.cpp
+	"Mesh.h"
+	"assert.h"
+	"llgl.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1391117891 c:\users\user\desktop\projectlookingglass\trunk\subgame\code\binarywriter\mesh.h
+	"llgl.h"
+	"assert.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+
+1389906694 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\llgl.h
+	"Error.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"wrappers2.h"
+	"tdl/Bindable.h"
+	"tdl/framebuffers.h"
+	"tdl/loader.h"
+	"tdl/log.h"
+	"misc.h"
+	"tdl/programs.h"
+	"tdl/tdlmath.h"
+	"tdl/textures.h"
+	"SDL.h"
+	<memory>
+	<tr1/memory>
+
+1389906694 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\error.h
+	<stdexcept>
+	<string>
+	<sstream>
+
+1389906694 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\llgl-gldef.h
+	<stdlib.h>
+	<windows.h>
+	"llgl-glext.h"
+
+1389906694 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\llgl-glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1389906694 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\vectormath.h
+	<vector>
+	<cmath>
+	<iostream>
+	<string>
+	<stdexcept>
+	<sstream>
+	"Error.h"
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\matrixmath.h
+	"vectormath.h"
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<string>
+	"Error.h"
+
+1389906696 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\wrappers2.h
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\bindable.h
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\framebuffers.h
+	<map>
+	"Bindable.h"
+	"textures.h"
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\textures.h
+	<vector>
+	<map>
+	<string>
+	"Bindable.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	<stdexcept>
+	<stdint.h>
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\loader.h
+	<string>
+	<vector>
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\log.h
+
+1389906694 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\misc.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	"Error.h"
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\programs.h
+	<string>
+	<vector>
+	<map>
+	<set>
+	<stdexcept>
+	"textures.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"log.h"
+	"programsvf.h"
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\programsvf.h
+
+1389906695 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\include\tdl\tdlmath.h
+	<cmath>
+	"vectormath.h"
+	"matrixmath.h"
+
+1389906781 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1389906783 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_config.h
+	"SDL_config_win32_msvc.h"
+	"SDL_config_full.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_config_win32_msvc.h
+	"SDL_platform.h"
+
+1389906781 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_platform.h
+
+1389906778 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_config_full.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\begin_code.h
+
+1389906779 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\close_code.h
+
+1389906778 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906781 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906783 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906781 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1389906781 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906779 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906781 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906778 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906784 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_keysym.h
+
+1389906778 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906781 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906784 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1389906784 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906778 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389906782 c:\users\user\desktop\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1393187264 source:c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\code\binarywriter\mesh.cpp
+	"Mesh.h"
+	"assert.h"
+	"llgl.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1391121491 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\code\binarywriter\mesh.h
+	"llgl.h"
+	"assert.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+
+1389910294 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\llgl.h
+	"Error.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"wrappers2.h"
+	"tdl/Bindable.h"
+	"tdl/framebuffers.h"
+	"tdl/loader.h"
+	"tdl/log.h"
+	"misc.h"
+	"tdl/programs.h"
+	"tdl/tdlmath.h"
+	"tdl/textures.h"
+	"SDL.h"
+	<memory>
+	<tr1/memory>
+
+1389910294 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\error.h
+	<stdexcept>
+	<string>
+	<sstream>
+
+1389910294 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\llgl-gldef.h
+	<stdlib.h>
+	<windows.h>
+	"llgl-glext.h"
+
+1389910294 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\llgl-glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1389910294 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\vectormath.h
+	<vector>
+	<cmath>
+	<iostream>
+	<string>
+	<stdexcept>
+	<sstream>
+	"Error.h"
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\matrixmath.h
+	"vectormath.h"
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<string>
+	"Error.h"
+
+1389910296 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\wrappers2.h
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\bindable.h
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\framebuffers.h
+	<map>
+	"Bindable.h"
+	"textures.h"
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\textures.h
+	<vector>
+	<map>
+	<string>
+	"Bindable.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	<stdexcept>
+	<stdint.h>
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\loader.h
+	<string>
+	<vector>
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\log.h
+
+1389910294 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\misc.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	"Error.h"
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\programs.h
+	<string>
+	<vector>
+	<map>
+	<set>
+	<stdexcept>
+	"textures.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"log.h"
+	"programsvf.h"
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\programsvf.h
+
+1389910295 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\include\tdl\tdlmath.h
+	<cmath>
+	"vectormath.h"
+	"matrixmath.h"
+
+1389910381 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1389910383 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_config.h
+	"SDL_config_win32_msvc.h"
+	"SDL_config_full.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_config_win32_msvc.h
+	"SDL_platform.h"
+
+1389910381 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_platform.h
+
+1389910378 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_config_full.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\begin_code.h
+
+1389910379 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\close_code.h
+
+1389910378 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910381 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910383 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910381 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1389910381 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910379 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910381 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910378 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910384 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_keysym.h
+
+1389910378 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910381 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910384 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1389910384 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910378 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389910382 c:\users\user\desktop\software development\projectlookingglass\trunk\subgame\llgl\thirdparty\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1395780030 source:c:\users\user\desktop\business\my portfolio\binarywriter\code\main.cpp
+	<iostream>
+	"llgl.h"
+	<fstream>
+	<vector>
+	"SuperMesh.h"
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\llgl.h
+	"Error.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"wrappers2.h"
+	"tdl/Bindable.h"
+	"tdl/framebuffers.h"
+	"tdl/loader.h"
+	"tdl/log.h"
+	"misc.h"
+	"tdl/programs.h"
+	"tdl/tdlmath.h"
+	"tdl/textures.h"
+	"SDL.h"
+	<memory>
+	<tr1/memory>
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\error.h
+	<stdexcept>
+	<string>
+	<sstream>
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\llgl-gldef.h
+	<stdlib.h>
+	<windows.h>
+	"llgl-glext.h"
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\llgl-glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\vectormath.h
+	<vector>
+	<cmath>
+	<iostream>
+	<string>
+	<stdexcept>
+	<sstream>
+	"Error.h"
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\matrixmath.h
+	"vectormath.h"
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<string>
+	"Error.h"
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\wrappers2.h
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\bindable.h
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\framebuffers.h
+	<map>
+	"Bindable.h"
+	"textures.h"
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\textures.h
+	<vector>
+	<map>
+	<string>
+	"Bindable.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	<stdexcept>
+	<stdint.h>
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\loader.h
+	<string>
+	<vector>
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\log.h
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\misc.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	"Error.h"
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\programs.h
+	<string>
+	<vector>
+	<map>
+	<set>
+	<stdexcept>
+	"textures.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"log.h"
+	"programsvf.h"
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\programsvf.h
+
+1377026720 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\include\tdl\tdlmath.h
+	<cmath>
+	"vectormath.h"
+	"matrixmath.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config.h
+	"SDL_config_win32_msvc.h"
+	"SDL_config_full.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config_win32_msvc.h
+	"SDL_platform.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_platform.h
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config_full.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\begin_code.h
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\close_code.h
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_keysym.h
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\desktop\business\my portfolio\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1393187261 c:\users\user\desktop\business\my portfolio\binarywriter\code\supermesh.h
+	"llgl.h"
+	"Mesh.h"
+	"assert.h"
+	<string>
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1395712868 c:\users\user\desktop\business\my portfolio\binarywriter\code\mesh.h
+	"llgl.h"
+	"assert.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+
+1395712870 source:c:\users\user\desktop\business\my portfolio\binarywriter\code\mesh.cpp
+	"Mesh.h"
+	"assert.h"
+	"llgl.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1390167758 source:c:\users\user\desktop\business\my portfolio\binarywriter\code\supermesh.cpp
+
+1396385809 source:c:\users\user\graphics_shader_test_donloughry\binarywriter\code\main.cpp
+	<iostream>
+	"llgl.h"
+	<fstream>
+	<vector>
+	"SuperMesh.h"
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\llgl.h
+	"Error.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"wrappers2.h"
+	"tdl/Bindable.h"
+	"tdl/framebuffers.h"
+	"tdl/loader.h"
+	"tdl/log.h"
+	"misc.h"
+	"tdl/programs.h"
+	"tdl/tdlmath.h"
+	"tdl/textures.h"
+	"SDL.h"
+	<memory>
+	<tr1/memory>
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\error.h
+	<stdexcept>
+	<string>
+	<sstream>
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\llgl-gldef.h
+	<stdlib.h>
+	<windows.h>
+	"llgl-glext.h"
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\llgl-glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\vectormath.h
+	<vector>
+	<cmath>
+	<iostream>
+	<string>
+	<stdexcept>
+	<sstream>
+	"Error.h"
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\matrixmath.h
+	"vectormath.h"
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<string>
+	"Error.h"
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\wrappers2.h
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\bindable.h
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\framebuffers.h
+	<map>
+	"Bindable.h"
+	"textures.h"
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\textures.h
+	<vector>
+	<map>
+	<string>
+	"Bindable.h"
+	"llgl-gldef.h"
+	"llgl-glext.h"
+	"vectormath.h"
+	<stdexcept>
+	<stdint.h>
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\loader.h
+	<string>
+	<vector>
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\log.h
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\misc.h
+	<vector>
+	<string>
+	<sstream>
+	<iostream>
+	"Error.h"
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\programs.h
+	<string>
+	<vector>
+	<map>
+	<set>
+	<stdexcept>
+	"textures.h"
+	"vectormath.h"
+	"matrixmath.h"
+	"log.h"
+	"programsvf.h"
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\programsvf.h
+
+1377026720 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\include\tdl\tdlmath.h
+	<cmath>
+	"vectormath.h"
+	"matrixmath.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config.h
+	"SDL_config_win32_msvc.h"
+	"SDL_config_full.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config_win32_msvc.h
+	"SDL_platform.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_platform.h
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_config_full.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\begin_code.h
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\close_code.h
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_keysym.h
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026748 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1377026750 c:\users\user\graphics_shader_test_donloughry\binarywriter\llgl\llgl\thirdparty\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1393187261 c:\users\user\graphics_shader_test_donloughry\binarywriter\code\supermesh.h
+	"llgl.h"
+	"Mesh.h"
+	"assert.h"
+	<string>
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1395712868 c:\users\user\graphics_shader_test_donloughry\binarywriter\code\mesh.h
+	"llgl.h"
+	"assert.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+
+1395712870 source:c:\users\user\graphics_shader_test_donloughry\binarywriter\code\mesh.cpp
+	"Mesh.h"
+	"assert.h"
+	"llgl.h"
+	<vector>
+	<stdexcept>
+	<iostream>
+	<fstream>
+
+1390167758 source:c:\users\user\graphics_shader_test_donloughry\binarywriter\code\supermesh.cpp
+

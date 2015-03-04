@@ -1,0 +1,30 @@
+/*
+* AUTHOR INFORMATION:
+* DONALD LOUGHRY II
+* Copyright (C) 2014  Donald Loughry II   All Rights Reserved.
+* 
+* All software products used within the following program are each subject to their 
+* respective copyrights. Donald Loughry II has no affiliation with Brian Paul, VMware Inc., Doxygen, or the 
+* Kronos group. Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+* and associated documentation files (the "Software"), to deal in the Software without restriction, including
+* without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+* copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the 
+* following conditions:
+* 
+* The above copyright notice and this permission notice shall be included
+* in all copies or substantial portions of the Software.
+* 
+* TODO: document each header file and explain the purpose and functionality of every included method.
+* 
+* NOTE: 
+* This program relies on the use of the Code::Blocks IDE. If you use another IDE with this code, make sure
+* to include these files in your build options:
+* 
+* LLGL/include
+* LLGL/thirdparty/sdl/include
+* SDL/include/SDL
+* LLGL/lib
+* SDL/lib
+* 
+* The LLGL and SDL development libraries are included with this project.
+*/

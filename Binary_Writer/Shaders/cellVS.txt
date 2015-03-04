@@ -1,0 +1,80 @@
+//This needs to handle all calculations that are not specular color. This means all of that for loop crap in cellFS. Discard specular color.
+
+varying vec2 curPos;
+uniform vec4 translate;
+
+attribute vec4 a_normal;
+attribute vec4 a_pos;
+varying vec3 v_normal;
+
+attribute vec4 a_texc;
+varying vec2 v_texcoord;
+varying vec4 v_pw;
+varying vec4 illum; // illumination, changes depending on where every light is...
+varying float diffuse; //this will be the value "dp" below//
+
+uniform mat4 projMatrix;
+uniform mat4 worldMatrix;
+uniform mat4 viewProjMatrix;
+
+//FS Uniforms//
+uniform sampler2D tex;
+uniform vec4 specular;
+uniform vec4 ambient;
+uniform vec4 eyepos;
+uniform float A0;
+uniform float A1;
+uniform float A2;
+uniform float shiny;
+
+struct Light{
+    vec4 pos;
+    vec4 col;
+    vec4 dir;
+};
+
+uniform Light lights[4];
+
+//End FS Uniforms//
+
+void main()
+{
+    vec4 p = a_pos;
+    p = p * worldMatrix * viewProjMatrix;
+    v_pw = a_pos * worldMatrix;
+    v_normal = (a_normal * worldMatrix).xyz;
+    v_texcoord = a_texc.st;
+
+    //Color Calculations//
+    vec3 N = normalize(v_normal);
+    vec4 tc = texture2D(tex, v_texcoord);
+
+    for(int i = 0; i < 4; i++)
+    {
+
+        vec3 L = lights[i].pos.xyz - lights[i].pos.w * v_pw.xyz;
+        float d = length(L);
+        L = normalize(L);
+
+        vec3 V = (eyepos.xyz - v_pw.xyz);
+        V = normalize(V);
+
+        vec3 R = reflect(-L, N);
+        R = normalize(R);
+        float spec = clamp(dot(V, R), 0.0, 1.0);
+        spec = pow(spec, specular.a);
+
+        float f = 1.0/(A2*d*d + A1*d + A0);
+        f = clamp(f,0.0,1.0);
+
+        float dp = dot(L,N);
+        dp = clamp(dp, 0.0, 1.0);
+        diffuse = dp;
+
+        float cos_a = dot(-L, lights[i].dir.xyz);
+        float spotflag = step(cos_a, lights[i].dir.w);
+
+        illum = f  * lights[i].col * (dp * tc * diffuse)  + (spec  * specular * sign(dp)) + ambient;
+    }
+    gl_Position = p; //Simply because I'm under the impression that this should be the last definition in a vertex shader.
+}
